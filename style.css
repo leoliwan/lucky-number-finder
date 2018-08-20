@@ -11,7 +11,7 @@
     color: #E91E63;
 }
 .container {
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
@@ -63,3 +63,45 @@
 #guess-btn:hover {
     background-color: rgb(5, 145, 163);
 }
+
+/* Media Querries */
+@media screen and (max-width: 399px) {
+    .container {
+        margin-top: 50px;
+    }
+    #showcase h1{
+        margin-top: 10px;
+        font-size: 34px;  
+    }
+    #showcase h2 {
+        font-size: 24px;
+    }
+
+    #win-gif {
+        display: none!important;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    .container {
+        margin-top: 50px;
+    }
+    #showcase h1{
+        margin-top: 10px;
+        font-size: 34px;
+    }
+    #win-gif {
+        display: none!important;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+    .container {
+        margin-top: 50px;
+    }
+    #showcase h1{
+        margin-top: 15px;
+        font-size: 44px;
+    }
+}
+
